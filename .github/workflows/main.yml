@@ -1,0 +1,17 @@
+name: Websites Publisher
+on: [push]
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Publish HowTo to Firebase
+    steps:
+      - uses: actions/checkout@v2
+      - name: Write to database
+        uses: yazilim-vip/howto-firebase-publisher@master
+        with:
+          api-key: ${{ secrets.API_KEY }}
+          database-url: "https://yvip-howto.firebaseio.com"
+          project-id: "yvip-howto"
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          howto-dir: "/home/runner/work/howto-archive/howto-archive"

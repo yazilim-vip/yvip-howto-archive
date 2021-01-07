@@ -1,3 +1,6 @@
+# Linux BIOS Update
+Flashing BIOS: https://wiki.archlinux.org/index.php/Flashing_BIOS_from_Linux
+
 Updating the BIOS on Lenovo laptops from Linux using a USB flash stick
 
 Aren’t hardware manufacturers funny? They either require an old-fashioned operating system (Windows) or museum hardware (floppy drives) to update a BIOS. Apparently they never learn and are instead busy adding features like DRM and UEFI to make our lives even more miserable.
@@ -25,3 +28,4 @@ However updating the BIOS on my Lenovo X230 laptop was surprisingly easy once I 
 1. Select the USB stick.
 1. Make sure your laptop has its power supply plugged in. (It will refuse to update otherwise.)
 1. Follow the instructions.
+

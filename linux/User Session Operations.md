@@ -1,4 +1,2 @@
-User Session Operations
-
-user session operations;
+# User Session Operations
 https://www.cyberciti.biz/faq/howto-kill-unix-linux-user-session/

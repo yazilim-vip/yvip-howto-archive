@@ -1,4 +1,4 @@
-Git Tips and Tricks
+# Git Tips and Tricks
 
 - Changelog tutmak için tavsiyeler: https://keepachangelog.com/en/1.1.0/
 - Git commit Mesajları için tavsiyeler:  https://chris.beams.io/posts/git-commit/#seven-rules

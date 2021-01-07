@@ -1,4 +1,4 @@
-
+# ls
 | command | Description|
 |-----|----| 
 | ls -lh boyut | d |

@@ -1,3 +1,0 @@
-Tureng
-
-Tureng hakkında bahsedilece

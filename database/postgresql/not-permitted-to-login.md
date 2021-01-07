@@ -1,4 +1,4 @@
-
+# PostgreSQL not-permitted-to-login Error
 Docker üzreinde kurulmuş olan PostgreSQL veritabanında sadece `postgres` kullanıcısının superuser olarak tanım olduğunu varsayalım. Eğer `postgres` kullanıcısının login yetkisi silinir ise sisteme PostgreSQL veritabanına hiç bir şekilde giriş yapılamamaktadır. Giriş yapılması denendiğinde ise aşağıdaki gibi bir hata alınacaktır: \
 
 ```role "xyz" is not permitted to log in```

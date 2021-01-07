@@ -1,6 +1,6 @@
+# date
+
 date command is used to display the system date and time. date command is also used to set date and time of the system. By default the date command displays the date in the time zone on which unix/linux operating system is configured.You must be the super-user (root) to change the date and time.
-
-
 
             
 | Format option | Part of Date | Desciption | Example Output |

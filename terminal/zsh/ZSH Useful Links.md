@@ -1,4 +1,4 @@
-ZSH Useful Links
+# ZSH Useful Links
 
 ZSH kabuğu kulanırken, associative array (key, value çiftlerinden oluşan array.) içerisinde foreach dönmek: 
 

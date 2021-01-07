@@ -1,8 +1,8 @@
-Softwrae Versioning
+# Softwrae Versioning
 
 Versiyonlama yaparken uyulacak spesifikasyonlar detaylı bir şekilde tek tek açıklanmış: Link: https://semver.org/
 
-- maemresen: özellikle şu maddelere dikkat edilmeli:
+özellikle şu maddelere dikkat edilmeli:
 
 - Patch version Z (x.y.Z | x > 0) MUST be incremented if only backwards compatible bug fixes are introduced. A bug fix is defined as an internal change that fixes incorrect behavior.
 

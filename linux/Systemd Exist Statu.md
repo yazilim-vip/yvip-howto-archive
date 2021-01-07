@@ -1,4 +1,4 @@
-Systemd Exist Status
+# Systemd Exist Status
 
 Bir servis işlemi sonlandırıldığı zaman bir kod döndürüyor. Systemd normal şartlar altında başırılı sonuç olarak 100 değerini bekliyor. 
 Ancak Java uygulamaları başarılı bir şekilde  sonlandırıldığında exit code 143 olarak belirlenmiş. Biz java process durduruyoruz.
@@ -8,13 +8,13 @@ Bu durumun önüne geçmek için  SuccessExitStatus=143 satırı eklenerek, serv
 Gerekli systemd ayar dosyası
 ------------------------------------------------------------------------------------------
 
-[Unit]
+\[Unit]
 Description=OctoServer Alarm Service
 After=syslog.target
-# StartLimitIntervalSec in recent systemd versions
+\# StartLimitIntervalSec in recent systemd versions
 StartLimitInterval=0
 
-[Service]
+\[Service]
 SuccessExitStatus=143
 WorkingDirectory=/folder/to/jar_file
 SyslogIdentifier=MyAwesomeJavaApp
@@ -23,8 +23,8 @@ ExecStart=/usr/bin/java -jar /path/to/jar_file
 User=user_runs_java_app
 Type=simple
 Restart=always
-# time to sleep before restarting a service
+\# time to sleep before restarting a service
 RestartSec=1
 
-[Install]
+\[Install]
 WantedBy=multi-user.target

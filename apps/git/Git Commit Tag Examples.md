@@ -1,4 +1,4 @@
-Git Commit Tag Examples
+# Git Commit Tag Examples
 
 - feat: a new feature for the user, not a new feature for a build script
 - fix: bug fix for the user, not a fix to a build scripts
@@ -10,7 +10,6 @@ Git Commit Tag Examples
 - vendor: update version for dependencies, packages.
 - test: adding missing tests, refactoring tests; no production code
 - yukarıda belirtilen kategoriler ile başlayan kaçartane commit olduğunu sayan komut
-
 
 git log --pretty=oneline --no-merges | cut -d " " -f 2 | grep -e 'feat:' -e 'fix:' -e 'refactor:' -e 'chore:' -e 'docs:' -e 'style:' -e 'perf:' -e 'vendor:' -e 'test:' |\
 cut -d "(" -f 1 | cut -d ":" -f 1 | sort -r | uniq -c | sort -nr -k1

@@ -14,4 +14,4 @@ jobs:
           project-id: "yvip-howto"
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          howto-dir: "/home/runner/work/howto-archive/howto-archive"
+          howto-dir: "/home/runner/work/yvip-howto-archive/yvip-howto-archive"

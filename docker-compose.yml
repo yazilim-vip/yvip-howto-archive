@@ -1,0 +1,16 @@
+version: "3.4"
+services:
+  webapp:
+    image: yazilimvip/howto-react:0.3.5
+    ports:
+      - "5100:80"
+    environment:
+      - "API_URL=http://localhost:5000"
+    depends_on:
+      - service
+  service:
+    image: yazilimvip/howto-script:0.10.2
+    volumes:
+      - ./:/usr/src/app/howto
+    ports:
+      - "5000:5000"
